@@ -5,17 +5,17 @@
  *
  * Return: Value of the last digit
  */
-int print_last_digit(int n);
+int print_last_digit(int nld);
 {
-	int last_digit;
+	int ld;
 
-	last_digit = (n % 10);
+	ld = (nld % 10);
 
-	if (last_digit < 0)
+	if (ld < 0)
 	{
-		last_digit = (-1 * last_digit);
+		ld = (-1 * ld);
 	}
-	_putchar(last_digit + '0');
+	_putchar(ld + '0');
 
-	return (last_digit);
+	return (ld);
 }
