@@ -1,10 +1,10 @@
-#include "main.h"
 #include <stdio.h>
+#include "main.h"
 
 /**
- * print_line - a function that draws a straight line in the terminal.
- * @n: number of _ to print
- * Returns nothing
+ * print_line - prints straight line
+ * @n: parameter
+ * Return: returns nothing
  */
 
 void print_line(int n)
