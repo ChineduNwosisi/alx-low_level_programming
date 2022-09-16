@@ -3,15 +3,14 @@
 /**
  * print_line - a function that draws a straight line in the terminal.
  * @n: number of _ to print
+ * Returns nothing
  */
 
 void print_line(int n)
 {
-	int i;
-
-	for (i = 0; i < n; i++)
+	while (n-- > 0)
 	{
-		_putchar('-');
+		putchar('-');
 	}
-	_putchar('\n');
+	putchar('\n');
 }
